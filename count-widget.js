@@ -36,6 +36,6 @@ $( document ).ready(function() {
       var timeinterval = setInterval(updateClock, 1000);
     }
     var deadline = new Date(); //today
-    deadline.setDate(deadline.getDate() + 23);
+    deadline.setDate(deadline.getDate() + 8);
     initializeClock('clockdiv', deadline);
     });
